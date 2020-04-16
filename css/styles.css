@@ -9,16 +9,16 @@ font-family: 'Open Sans', sans-serif;
 *************************************/
 
 h1{
-	font-family: "Archer", serif;
+	font-family: "Patrima", sans-serif;
 	font-size: 3rem;
-	font-weight: bold;
-	font-style: italic;
+	font-weight: normal;
+	font-style: normal;
 }
 
 h2{
 	color:rgba(96,140,175,1.0);
-	font-family: "DIN 30640 Std";
-	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
     font-size:1.8em;
@@ -54,7 +54,7 @@ p{
 
 hr {
   margin-top: 1rem;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 
 a {
@@ -101,7 +101,7 @@ input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
 	color: #FFF;
 	background-color: rgba(96,140,175,.7);
-	border: none; }	
+	border: none; }
 
 /*************************************
 ******** INTRO AND OVERVIEW **********
@@ -113,106 +113,106 @@ section.intro{
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) -12% 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 113% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 200px 75px no-repeat,
-				url(../images/blue-line.gif) -1100px 515px no-repeat;
+	background:	url(../images/plus-grid-left.png) -12% 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 113% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 200px 75px no-repeat,
+				url(../images/yellow-line.gif) -1100px 515px no-repeat;
 	}
 }
 @media (min-width: 650px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) -10% 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 110% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 300px 75px no-repeat,
-				url(../images/blue-line.gif) -1100px 550px no-repeat;
+	background:	url(../images/plus-grid-left.png) -10% 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 110% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 300px 75px no-repeat,
+				url(../images/yellow-line.gif) -1100px 550px no-repeat;
 	}
 }
 @media (min-width: 740px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) -10% 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 110% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 300px 75px no-repeat,
-				url(../images/blue-line.gif) -970px 600px no-repeat;
+	background:	url(../images/plus-grid-left.png) -10% 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 110% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 300px 75px no-repeat,
+				url(../images/yellow-line.gif) -970px 600px no-repeat;
 	}
 }
 @media (min-width: 825px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) -10% 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 110% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 300px 75px no-repeat,
-				url(../images/blue-line.gif) -920px 630px no-repeat;
+	background:	url(../images/plus-grid-left.png) -10% 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 110% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 300px 75px no-repeat,
+				url(../images/yellow-line.gif) -920px 630px no-repeat;
 	}
 }
 @media (min-width: 880px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 280px 85px no-repeat,
-				url(../images/blue-line.gif) -870px 650px no-repeat;
+	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 280px 85px no-repeat,
+				url(../images/yellow-line.gif) -870px 650px no-repeat;
 	}
 }
 @media (min-width: 1010px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 360px 85px no-repeat,
-				url(../images/blue-line.gif) -780px 88% no-repeat;
+	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 360px 85px no-repeat,
+				url(../images/yellow-line.gif) -780px 88% no-repeat;
 	}
 }
 @media (min-width: 1010px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 500px 85px no-repeat,
-				url(../images/blue-line.gif) -750px 88% no-repeat;
+	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 500px 85px no-repeat,
+				url(../images/yellow-line.gif) -750px 88% no-repeat;
 	}
 }
 @media (min-width: 1023px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) -3% 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 103% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 320px 85px no-repeat,
-				url(../images/blue-line.gif) -800px 89% no-repeat;
+	background:	url(../images/plus-grid-right.png) -3% 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-left.png) 103% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 320px 85px no-repeat,
+				url(../images/yellow-line.gif) -800px 89% no-repeat;
 	}
 }
 @media (min-width: 1365px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 500px 85px no-repeat,
-				url(../images/blue-line.gif) -750px 88% no-repeat;
+	background:	url(../images/plus-grid-left.png) 0 -50px no-repeat,/*left wavy lines*/
+    url(../images/plus-grid-right.png) 100% 130px no-repeat,/*right wavy lines*/
+    url(../images/yellow-line.gif) 500px 85px no-repeat,
+    url(../images/yellow-line.gif) -750px 88% no-repeat
 	}
 }
 @media (min-width: 1500px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 800px 85px no-repeat,
-				url(../images/blue-line.gif) -550px 88% no-repeat;
+	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 800px 85px no-repeat,
+				url(../images/yellow-line.gif) -550px 88% no-repeat;
 	}
 }
 @media (min-width: 2000px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 770px 85px no-repeat,
-				url(../images/blue-line.gif) -280px 88% no-repeat;
+	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 770px 85px no-repeat,
+				url(../images/yellow-line.gif) -280px 88% no-repeat;
 	}
 }
 @media (min-width: 2070px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 900px 85px no-repeat,
-				url(../images/blue-line.gif) -280px 88% no-repeat;
+	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 900px 85px no-repeat,
+				url(../images/yellow-line.gif) -280px 88% no-repeat;
 	}
 }
 @media (min-width: 2500px) {
 	section.intro{
-	background:	url(../images/wavy-lines-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/wavy-lines-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/blue-line.gif) 1300px 85px no-repeat,
-				url(../images/blue-line.gif) -280px 88% no-repeat;
+	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
+				url(../images/yellow-line.gif) 1300px 85px no-repeat,
+				url(../images/yellow-line.gif) -280px 88% no-repeat;
 	}
 }
 .scsalogo{
@@ -226,25 +226,12 @@ section.intro{
 	}
 }
 .mainsubhead{
-	color:rgba(96,140,175,1.0);
+	color:rgba(110,111,113,0.9);
 	margin:65px 0 0 0;
 	text-transform: uppercase;
-	font-size:2.5em;
+	font-size:2.2em;
 	letter-spacing:.02em;
 	line-height: .8em;
-}
-
-span.subhead-small{
-	text-transform: none;
-	font-size:.5em;
-}
-
-span.subhead-sans{
-	font-family: "DINPro";
-	font-weight: 500;
-    font-style: normal;
-    font-size:.5em;
-    letter-spacing:.05em;
 }
 
 .mainheadline{
@@ -252,30 +239,65 @@ span.subhead-sans{
 }
 
 section.overview{
-	background: rgb(237,242,246) url(../images/creativity-with-teeth.png) 20% 50px no-repeat;
+	background: rgb(237,233,222) url(../images/a-d_seal.png) 20% 50px no-repeat;
 	padding: 135px 0 110px;
 }
 
 @media (min-width: 1850px) {
 	section.overview{
-	background: rgb(237,242,246) url(../images/creativity-with-teeth.png) 30% 50px no-repeat;
+	background: rgb(237,233,232) url(../images/a-d_seal.png) 30% 50px no-repeat;
 }
 }
 
 .body-large{
-	color:rgba(82,82,82,1.0);
-	font-family: "DINPro";
-	font-weight: 300;
-    font-style: normal;
-    font-size:1.6em;
-    line-height: 2em;
+	color:rgba(82,82,82,.6);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+  font-style: normal;
+  font-size:1.4em;
+  line-height: 2em;
 }
 
 .body-large strong{
 	color:rgba(96,140,175,1.0);
 	font-family: "DINPro";
 	font-weight: 500;
-    font-style: normal;
+  font-style: normal;
+}
+
+.jury{
+	margin-top:50px;
+}
+
+.juror{
+	color:rgba(82,82,82,.6);
+	font-family: 'Patrima', sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	font-size:1.4em;
+	line-height: 1.2em;
+	text-align: left;
+}
+
+.juror img{
+	max-width: 100%;
+	border-radius: 100%;
+	background-clip: padding-box;
+}
+
+.juror-name{
+	margin-top: 30px;
+}
+
+.juror-title{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 1em;
+	font-style: italic;
+	font-size: 80%;
 }
 
 /*************************************
@@ -283,7 +305,7 @@ section.overview{
 *************************************/
 
 nav.navigation{
-	background: rgba(221,230,238,1.0);
+	background: rgba(35,31,32,1.0);
 	display: none;
 }
 @media (min-width: 760px) {
@@ -365,44 +387,44 @@ section.award-category{
 	margin: 100px 0 0 0;
 }
 
-section.award-category::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -100px; 
-  height: 100px; 
-  visibility: hidden; 
+section.award-category::before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
   pointer-events: none;
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 	section.award-category{
-	background: url(../images/blue-line.gif) -1280px 112px no-repeat;
+	background: url(../images/yellow-line.gif) -1280px 112px no-repeat;
 	}
 }
 @media (min-width: 1200px) {
 	section.award-category{
-	background: url(../images/blue-line.gif) -1180px 112px no-repeat;
+	background: url(../images/yellow-line.gif) -1180px 112px no-repeat;
 	}
 }
 @media (min-width: 1650px) {
 	section.award-category{
-	background: url(../images/blue-line.gif) -950px 112px no-repeat;
+	background: url(../images/yellow-line.gif) -950px 112px no-repeat;
 	}
 }
 @media (min-width: 2000px) {
 	section.award-category{
-	background: url(../images/blue-line.gif) -800px 112px no-repeat;
+	background: url(../images/yellow-line.gif) -800px 112px no-repeat;
 	}
 }
 @media (min-width: 2200px) {
 	section.award-category{
-	background: url(../images/blue-line.gif) -670px 112px no-repeat;
+	background: url(../images/yellow-line.gif) -670px 112px no-repeat;
 	}
 }
 @media (min-width: 2500px) {
 	section.award-category{
-	background: url(../images/blue-line.gif) -530px 112px no-repeat;
+	background: url(../images/yellow-line.gif) -530px 112px no-repeat;
 	}
 }
 
@@ -477,13 +499,3 @@ footer{
 	margin-top: 30px;
 	font-size: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
