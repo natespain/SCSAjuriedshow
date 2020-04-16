@@ -16,31 +16,42 @@ h1{
 }
 
 h2{
-	color:rgba(147,148,149,.9);
+	color:rgba(82,82,82,1);
 	font-family: "Patrima", sans-serif;
 	font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
-  font-size:1.8em;
+  font-size:1.6em;
+	line-height: 1em;
+}
+
+h2 span.award-category{
+	color:rgba(147,148,149,.9);
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: none;
+	letter-spacing: .05em;
+  font-size:.7em;
 }
 
 h3{
 	color:rgba(82,82,82,1.0);
-	font-family: "Archer", serif;
-	font-size: 3rem;
-	font-weight: bold;
-	font-style: italic;
-	letter-spacing: .01em;
+	font-family: "Open Sans", sans-serif;
+	font-size: 2rem;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-style: normal;
 	margin-bottom: 1rem;
 }
 
 h4{
 	color:rgba(96,140,175,1.0);
-	font-family: "Archer", serif;
-	font-size: 3rem;
-	font-weight: bold;
-	font-style: italic;
-	letter-spacing: .01em;
+	font-family: "Patrima", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 400;
+	letter-spacing: 0em;
+	font-style: normal;
 }
 
 p{
@@ -238,13 +249,16 @@ section.intro{
 }
 
 section.overview{
-	background: rgb(237,233,222) url(../images/a-d_seal.png) 20% 50px no-repeat;
-	padding: 135px 0 110px;
+	/* background: rgb(237,233,222) url(../images/a-d_seal.png) 75% 50px no-repeat; */
+	background: rgb(237,233,222);
+	/* padding: 135px 0 110px; */
+	padding: 100px 0 110px;
 }
 
 @media (min-width: 1850px) {
 	section.overview{
-	background: rgb(237,233,232) url(../images/a-d_seal.png) 30% 50px no-repeat;
+	/* background: rgb(237,233,222) url(../images/a-d_seal.png) 73% 50px no-repeat; */
+	background: rgb(237,233,222);
 }
 }
 
