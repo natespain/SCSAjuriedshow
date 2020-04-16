@@ -18,6 +18,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     font-style: normal;
 }
 
+/* USING THIS ONE */
 @font-face {
     font-family: 'Patrima';
     src: url('../fonts/hinted-Patrima-Bold.woff2') format('woff2'),
@@ -42,6 +43,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     font-style: normal;
 }
 
+/* USING THIS ONE */
 @font-face {
     font-family: 'Patrima';
     src: url('../fonts/hinted-Patrima-Regular.woff2') format('woff2'),

@@ -16,13 +16,12 @@ h1{
 }
 
 h2{
-	color:rgba(96,140,175,1.0);
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    font-size:1.8em;
-    letter-spacing:.05em;
+	color:rgba(147,148,149,.9);
+	font-family: "Patrima", sans-serif;
+	font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size:1.8em;
 }
 
 h3{
@@ -71,14 +70,14 @@ input[type="button"] {
 	margin-top:1em;
 	height: 38px;
 	padding: 0 30px;
-	font-family: "Archer", serif;
+	font-family: "Patrima", sans-serif;
 	font-size: 1.5rem;
 	font-weight: bold;
-	font-style: italic;
+	font-style: normal;
 	letter-spacing: .01em;
 	text-align: center;
 	line-height: 0;
-	text-transform: none;
+	text-transform: uppercase;
 	border-radius: none;
 	border: 1px solid #bbb; }
 .button.button-primary,
@@ -258,19 +257,17 @@ section.overview{
   line-height: 2em;
 }
 
-.body-large strong{
-	color:rgba(96,140,175,1.0);
-	font-family: "DINPro";
-	font-weight: 500;
-  font-style: normal;
-}
-
 .jury{
-	margin-top:50px;
+	display: block;
+	margin: 50px auto 0;
+	width: max-content;
+
 }
 
 .juror{
 	color:rgba(82,82,82,.6);
+	width: 250px;
+	margin-left:50px;
 	font-family: 'Patrima', sans-serif;
 	font-weight: bold;
 	font-style: normal;
@@ -278,7 +275,20 @@ section.overview{
 	letter-spacing: 0;
 	font-size:1.4em;
 	line-height: 1.2em;
-	text-align: left;
+	text-align: center;
+	float: left;
+}
+
+@media (max-width: 690px) {
+	.juror{
+	float: none;
+	margin-left:0px;
+	margin-top:50px;
+}
+}
+
+.firstjuror{
+	margin-left:0;
 }
 
 .juror img{
@@ -314,34 +324,26 @@ nav.navigation{
 }
 }
 
+.nav-container {
+	display: block;
+	height: 70px;
+	width: max-content;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 .stuck {
-	position: fixed;
+	position:fixed;
 	width: 100%;
 	top: 0;
 	left: 0;
 	z-index: 99;
 }
 
-/*Used for Sticky Nav 1*/
-/*nav.fixed{
-	position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}*/
-
-/*Used for Sticky Nav 2*/
-/*nav.sticky{
-	position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}*/
-
 nav.navigation ul{
 	list-style: none;
+	display: block;
 	margin-bottom: 0;
 }
 
@@ -352,13 +354,13 @@ nav.navigation ul{
 }
 
 a.nav-link{
-	color: rgba(96,140,175,1.0);
-	font-family: "DIN 30640 Std";
-	font-weight: bold;
-    font-style: normal;
-    text-transform: uppercase;
-    font-size:1em;
-    padding: 20px 15px;
+	color: rgba(237, 233, 222,0.9);
+	font-family: "Patrima", sans-serif;
+	font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size:1em;
+  padding: 20px 15px;
 	letter-spacing: .01em;
 
 }
@@ -376,7 +378,7 @@ a.nav-link{
 }
 
 .nav-link:hover{
-	background: rgba(237,242,246,0.75);
+	background: rgba(237, 233, 222,0.2);
 }
 
 /*************************************
