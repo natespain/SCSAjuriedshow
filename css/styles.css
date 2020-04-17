@@ -121,129 +121,117 @@ section.intro{
 	padding: 0 0 65px 0;
 }
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
+
+
+@media (min-width: 605px) {
 	section.intro{
-	background:	url(../images/plus-grid-left.png) -12% 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 113% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 200px 75px no-repeat,
-				url(../images/yellow-line.gif) -1100px 515px no-repeat;
+	background:
+				url(../images/yellow-line-1600.gif) right -1100px top 75px no-repeat;
 	}
 }
-@media (min-width: 650px) {
+
+@media (min-width: 605px) {
 	section.intro{
-	background:	url(../images/plus-grid-left.png) -10% 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 110% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 300px 75px no-repeat,
-				url(../images/yellow-line.gif) -1100px 550px no-repeat;
+	background:
+				url(../images/yellow-line-1600.gif) right -1100px top 75px no-repeat;
 	}
 }
-@media (min-width: 740px) {
+
+@media (min-width: 724px) {
 	section.intro{
-	background:	url(../images/plus-grid-left.png) -10% 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 110% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 300px 75px no-repeat,
-				url(../images/yellow-line.gif) -970px 600px no-repeat;
+	background:
+				url(../images/yellow-line-1600.gif) right -1000px top 75px no-repeat;
 	}
 }
-@media (min-width: 825px) {
+
+@media (min-width: 845px) {
 	section.intro{
-	background:	url(../images/plus-grid-left.png) -10% 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 110% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 300px 75px no-repeat,
-				url(../images/yellow-line.gif) -920px 630px no-repeat;
+	background:
+				url(../images/yellow-line-1600.gif) right -900px top 85px no-repeat;
 	}
 }
-@media (min-width: 880px) {
+
+@media (min-width: 965px) {
 	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+	background:
+				url(../images/yellow-line-1600.gif) right -800px top 85px no-repeat;
+	}
+}
+
+@media (min-width: 1210px) {
+	section.intro{
+	background:
+				url(../images/yellow-line-1600.gif) right -600px top 85px no-repeat;
+	}
+}
+
+@media (min-width: 1610px) {
+	section.intro{
+	background:	url(../images/plus-grid-left.png) 0 -130px no-repeat,/*left wavy lines*/
 				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 280px 85px no-repeat,
-				url(../images/yellow-line.gif) -870px 650px no-repeat;
+				url(../images/yellow-line-1600.gif) right -400px top 85px no-repeat,
+				url(../images/yellow-line.gif) 0px 90% no-repeat;
 	}
 }
-@media (min-width: 1010px) {
+
+@media (min-width: 2010px) {
 	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+	background:	url(../images/plus-grid-left.png) 0 -130px no-repeat,/*left wavy lines*/
 				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 360px 85px no-repeat,
-				url(../images/yellow-line.gif) -780px 88% no-repeat;
+				url(../images/yellow-line-1600.gif) right -200px top 85px no-repeat,
+				url(../images/yellow-line.gif) 0px 90% no-repeat;
 	}
 }
-@media (min-width: 1010px) {
+@media (min-width: 2400px) {
 	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
+	background:	url(../images/plus-grid-left.png) 0 -130px no-repeat,/*left wavy lines*/
 				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 500px 85px no-repeat,
-				url(../images/yellow-line.gif) -750px 88% no-repeat;
-	}
-}
-@media (min-width: 1023px) {
-	section.intro{
-	background:	url(../images/plus-grid-right.png) -3% 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-left.png) 103% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 320px 85px no-repeat,
-				url(../images/yellow-line.gif) -800px 89% no-repeat;
-	}
-}
-@media (min-width: 1365px) {
-	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 -50px no-repeat,/*left wavy lines*/
-    url(../images/plus-grid-right.png) 100% 130px no-repeat,/*right wavy lines*/
-    url(../images/yellow-line.gif) 500px 85px no-repeat,
-    url(../images/yellow-line.gif) -750px 88% no-repeat
-	}
-}
-@media (min-width: 1500px) {
-	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 800px 85px no-repeat,
-				url(../images/yellow-line.gif) -550px 88% no-repeat;
-	}
-}
-@media (min-width: 2000px) {
-	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 770px 85px no-repeat,
-				url(../images/yellow-line.gif) -280px 88% no-repeat;
-	}
-}
-@media (min-width: 2070px) {
-	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 900px 85px no-repeat,
-				url(../images/yellow-line.gif) -280px 88% no-repeat;
-	}
-}
-@media (min-width: 2500px) {
-	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 0 no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line.gif) 1300px 85px no-repeat,
-				url(../images/yellow-line.gif) -280px 88% no-repeat;
+				url(../images/yellow-line-1600.gif) right 0 top 85px no-repeat,
+				url(../images/yellow-line.gif) 0px 90% no-repeat;
 	}
 }
 .scsalogo{
+	display: block;
 	margin: 58px 0 0 0;
 	width:40%;
 }
+.scsalogo-desktop{
+	display:none;
+}
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
+@media (min-width: 605px) {
 	.scsalogo{
+		display: none;
+	}
+	.scsalogo-desktop{
+		display: block;
+		margin: 58px 0 0 0;
 		width:100%;
 	}
 }
+
 .mainsubhead{
 	color:rgba(110,111,113,0.9);
 	margin:65px 0 0 0;
+	text-align: left;
+	text-transform: uppercase;
+	font-size:2.0em;
+	letter-spacing:0em;
+	line-height: 1em;
+	background-color: none;
+}
+
+@media (min-width: 550px) {
+.mainsubhead{
+	color:rgba(110,111,113,0.9);
+	margin:65px 0 0 0;
+	text-align: right;
 	text-transform: uppercase;
 	font-size:2.2em;
 	letter-spacing:.02em;
 	line-height: .8em;
+	background-color: #ffffff;}
 }
-
 .mainheadline{
 	margin: 65px 0 0 0;
 }
