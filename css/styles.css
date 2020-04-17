@@ -485,12 +485,12 @@ section.silver h3{
 
 .student-info-title{
 	margin-bottom: 0;
-	color:rgba(96,140,175,1.0);
-	font-family: "DIN 30640 Std";
+	color:rgba(243,178,28,1.0);
+	font-family: "Patrima", sans-serif;
 	font-weight: bold;
-    font-style: normal;
-    text-transform: uppercase;
-    font-size:1em;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size:1em;
 	display: block;
 	background-color: #ffffff;
 	z-index: 1;
