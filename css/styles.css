@@ -144,7 +144,7 @@ section.bottom-line:before{
 	left:0px;
 }
 }
-@media (min-width: 680px) {
+@media (min-width: 685px) {
 section.bottom-line:before{
 	top:520px;
 }
@@ -159,7 +159,7 @@ section.bottom-line:before{
 	top:580px;
 }
 }
-@media (min-width: 985px) {
+@media (min-width: 990px) {
 section.bottom-line:before{
 	top:608px;
 }
@@ -179,8 +179,32 @@ section.bottom-line:before{
 	top:675px;
 }
 }
+
 /* Yellow Lines End */
 
+/* Plus Grid Begins */
+
+
+@media (min-width: 550px) {
+section.intro{
+	background:	url(../images/plus-grid-left.png) top -300px left -50px  no-repeat,/*left wavy lines*/
+							url(../images/plus-grid-right.png) bottom -190px right -50px no-repeat;/*right wavy lines*/
+}
+}
+@media (min-width: 685px) {
+section.intro{
+	background:	url(../images/plus-grid-left.png) top -250px left 0  no-repeat,/*left wavy lines*/
+							url(../images/plus-grid-right.png) bottom -190px right 0 no-repeat;/*right wavy lines*/
+}
+}
+@media (min-width: 990px) {
+section.intro{
+	background:	url(../images/plus-grid-left.png) top -130px left 0  no-repeat,/*left wavy lines*/
+							url(../images/plus-grid-right.png) bottom -90px right 0 no-repeat;/*right wavy lines*/
+}
+}
+
+/* Plus Grid Ends */
 
 .scsalogo{
 	display: block;
