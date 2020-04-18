@@ -1,9 +1,3 @@
-	/*
-font-family: 'Merriweather', serif;
-font-family: 'Ropa Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
-
 /*************************************
 ************ TYPOGRAPHY **************
 *************************************/
@@ -46,13 +40,14 @@ h3{
 }
 
 h4{
-	color:rgba(96,140,175,1.0);
+	color:rgba(82,82,82,1);
 	font-family: "Patrima", sans-serif;
-	font-size: 2.5rem;
-	font-weight: 400;
-	letter-spacing: 0em;
+	font-weight: bold;
 	font-style: normal;
+	text-transform: uppercase;
+	font-size: 2rem;
 }
+
 
 p{
 	color:rgba(82,82,82,1.0);
@@ -68,9 +63,10 @@ hr {
 }
 
 a {
-  color: rgba(96,140,175,1.0); }
+  font-weight: 400;
+	color: rgba(82,82,82,1); }
 a:hover {
-  color: rgba(96,140,175,.7); }
+  color: rgba(82,82,82,.7); }
 
 
 .button,
@@ -90,14 +86,16 @@ input[type="button"] {
 	line-height: 0;
 	text-transform: uppercase;
 	border-radius: none;
-	border: 1px solid #bbb; }
+	border: 1px solid #bbb;
+	-webkit-transition: all 0.2s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+					transition: all 0.2s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	color: #FFF;
-	background-color: rgba(96,140,175,1.0);
+	color: rgba(256,256,256,.8);
+	background-color: rgba(35,31,32,1.0);
 	border: none; }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -110,7 +108,7 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
 	color: #FFF;
-	background-color: rgba(96,140,175,.7);
+	background-color: rgba(35,31,32,.7);
 	border: none; }
 
 /*************************************
@@ -254,7 +252,7 @@ section.intro{
 
 section.overview{
 	/* background: rgb(237,233,222) url(../images/a-d_seal.png) 75% 50px no-repeat; */
-	background: rgb(237,233,222);
+	background: rgba(237,233,222,1.0);
 	/* padding: 135px 0 110px; */
 	padding: 100px 0 110px;
 }
@@ -262,7 +260,7 @@ section.overview{
 @media (min-width: 1850px) {
 	section.overview{
 	/* background: rgb(237,233,222) url(../images/a-d_seal.png) 73% 50px no-repeat; */
-	background: rgb(237,233,222);
+	background: rgba(237,233,222,1.0);
 }
 }
 
@@ -510,7 +508,7 @@ section.silver h3{
 *************************************/
 
 footer{
-	background: rgb(237,242,246) url(../images/creativity-with-teeth-lg.png) 20% 50px no-repeat;
+	background: rgba(237,233,222,1.0) url(../images/a-d_seal-lg.png) top 50px left 20% no-repeat;
 	margin: 75px 0 0 0 ;
 	padding: 120px 0 110px;
 }
