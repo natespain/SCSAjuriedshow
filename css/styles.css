@@ -120,76 +120,68 @@ input[type="button"].button-primary:focus {
 section.intro{
 	padding: 0 0 65px 0;
 }
-/* Larger than phablet (also point when grid becomes active) */
 
 
-@media (min-width: 605px) {
-	section.intro{
-	background:
-				url(../images/yellow-line-1600.gif) right -1100px top 75px no-repeat;
-	}
-}
+/* Yellow Lines Begin */
 
-@media (min-width: 605px) {
-	section.intro{
-	background:
-				url(../images/yellow-line-1600.gif) right -1100px top 75px no-repeat;
-	}
+@media (min-width: 550px) {
+section.top-line:after,
+section.bottom-line:before{
+	content: "";
+	position: absolute;
+	display: block;
+	border-bottom: rgba(243,178,28,1.0) solid 2px;
+	height:3px;
+	width: 60%;
+	z-index: -1;
 }
+section.top-line:after{
+	top:85px;
+	right:0px;
+}
+section.bottom-line:before{
+	top:457px;
+	left:0px;
+}
+}
+@media (min-width: 680px) {
+section.bottom-line:before{
+	top:520px;
+}
+}
+@media (min-width: 798px) {
+section.bottom-line:before{
+	top:565px;
+}
+}
+@media (min-width: 915px) {
+section.bottom-line:before{
+	top:580px;
+}
+}
+@media (min-width: 985px) {
+section.bottom-line:before{
+	top:608px;
+}
+}
+@media (min-width: 1058px) {
+section.bottom-line:before{
+	top:635px;
+}
+}
+@media (min-width: 1110px) {
+section.bottom-line:before{
+	top:655px;
+}
+}
+@media (min-width: 1160px) {
+section.bottom-line:before{
+	top:675px;
+}
+}
+/* Yellow Lines End */
 
-@media (min-width: 724px) {
-	section.intro{
-	background:
-				url(../images/yellow-line-1600.gif) right -1000px top 75px no-repeat;
-	}
-}
 
-@media (min-width: 845px) {
-	section.intro{
-	background:
-				url(../images/yellow-line-1600.gif) right -900px top 85px no-repeat;
-	}
-}
-
-@media (min-width: 965px) {
-	section.intro{
-	background:
-				url(../images/yellow-line-1600.gif) right -800px top 85px no-repeat;
-	}
-}
-
-@media (min-width: 1210px) {
-	section.intro{
-	background:
-				url(../images/yellow-line-1600.gif) right -600px top 85px no-repeat;
-	}
-}
-
-@media (min-width: 1610px) {
-	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 -130px no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line-1600.gif) right -400px top 85px no-repeat,
-				url(../images/yellow-line.gif) 0px 90% no-repeat;
-	}
-}
-
-@media (min-width: 2010px) {
-	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 -130px no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line-1600.gif) right -200px top 85px no-repeat,
-				url(../images/yellow-line.gif) 0px 90% no-repeat;
-	}
-}
-@media (min-width: 2400px) {
-	section.intro{
-	background:	url(../images/plus-grid-left.png) 0 -130px no-repeat,/*left wavy lines*/
-				url(../images/plus-grid-right.png) 100% 180px no-repeat,/*right wavy lines*/
-				url(../images/yellow-line-1600.gif) right 0 top 85px no-repeat,
-				url(../images/yellow-line.gif) 0px 90% no-repeat;
-	}
-}
 .scsalogo{
 	display: block;
 	margin: 58px 0 0 0;
@@ -223,14 +215,14 @@ section.intro{
 
 @media (min-width: 550px) {
 .mainsubhead{
-	color:rgba(110,111,113,0.9);
-	margin:65px 0 0 0;
 	text-align: right;
-	text-transform: uppercase;
 	font-size:2.2em;
-	letter-spacing:.02em;
-	line-height: .8em;
 	background-color: #ffffff;}
+}
+@media (min-width: 1180px) {
+.mainsubhead{
+	letter-spacing:.02em;
+	line-height: .8em;}
 }
 .mainheadline{
 	margin: 65px 0 0 0;
