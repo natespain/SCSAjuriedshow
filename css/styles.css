@@ -34,7 +34,7 @@ h3{
 	font-family: "Open Sans", sans-serif;
 	font-size: 2rem;
 	font-weight: 400;
-	letter-spacing: .05em;
+	letter-spacing: .01em;
 	font-style: normal;
 	margin-bottom: 1rem;
 }
@@ -313,6 +313,32 @@ section.overview{
 	background-clip: padding-box;
 }
 
+.juror a{
+	text-decoration: none;
+}
+
+.juror-bio{
+	max-width: 100%;
+}
+@media (min-width: 690px) {
+	.juror-bio{
+		max-width: 50%;
+	}
+}
+@media (min-width: 1300px) {
+	.juror-bio{
+		max-width: 650px;
+	}
+}
+
+.juror-bio img{
+	max-width: 100%;
+}
+@media (min-width: 550px) {
+	.juror-bio img{
+		max-width: 300px;
+	}
+}
 .juror-name{
 	margin-top: 30px;
 }
