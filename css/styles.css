@@ -132,6 +132,8 @@ section.bottom-line:before{
 	height:3px;
 	width: 60%;
 	z-index: -1;
+	-webkit-transition: all 0.2s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+					transition: all 0.2s ease-out;
 }
 section.top-line:after{
 	top:85px;
@@ -431,46 +433,64 @@ section.award-category{
 	margin: 100px 0 0 0;
 }
 
-section.award-category::before {
+/* section.award-category:before {
   display: block;
-  content: " ";
+  content: "";
   margin-top: -100px;
   height: 100px;
   visibility: hidden;
   pointer-events: none;
-}
+} */
+
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-	section.award-category{
-	background: url(../images/yellow-line.gif) -1280px 112px no-repeat;
+	section.award-category:before{
+		content: "";
+		display: block;
+		position: relative;
+		border-bottom: rgba(243,178,28,1.0) solid 2px;
+		z-index: -1;
+		left:0px;
+		top:13px;
+		height:3px;
+		width: 12%;
+		-webkit-transition: all 0.2s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+						transition: all 0.2s ease-out;
 	}
 }
-@media (min-width: 1200px) {
-	section.award-category{
-	background: url(../images/yellow-line.gif) -1180px 112px no-repeat;
+
+@media (min-width: 550px) {
+	section.award-category:before{
+		width: 13%;
 	}
 }
-@media (min-width: 1650px) {
-	section.award-category{
-	background: url(../images/yellow-line.gif) -950px 112px no-repeat;
+@media (min-width: 1260px) {
+	section.award-category:before{
+		width: 17%;
 	}
 }
-@media (min-width: 2000px) {
-	section.award-category{
-	background: url(../images/yellow-line.gif) -800px 112px no-repeat;
+@media (min-width: 1400px) {
+	section.award-category:before{
+		width: 20%;
 	}
 }
-@media (min-width: 2200px) {
-	section.award-category{
-	background: url(../images/yellow-line.gif) -670px 112px no-repeat;
+@media (min-width: 1690px) {
+	section.award-category:before{
+		width: 25%;
 	}
 }
-@media (min-width: 2500px) {
-	section.award-category{
-	background: url(../images/yellow-line.gif) -530px 112px no-repeat;
+@media (min-width: 1900px) {
+	section.award-category:before{
+		width: 28%;
 	}
 }
+@media (min-width: 2140px) {
+	section.award-category:before{
+		width: 30%;
+	}
+}
+
 
 section.top-award{
 	margin: 120px 0 0 0;
