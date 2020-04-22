@@ -433,6 +433,10 @@ section.award-category{
 	margin: 100px 0 0 0;
 }
 
+section.award-category img{
+border: 1px solid #eee;
+}
+
 /* section.award-category:before {
   display: block;
   content: "";
