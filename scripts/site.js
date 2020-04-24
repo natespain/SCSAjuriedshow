@@ -13,4 +13,11 @@ $(document).ready(function() {
             element: $('nav')[0]
           })
         });
+
+        // Lazy Load
+        // $(function() {
+        //   $('.lazy').Lazy();
+        // });
+
+
  });
